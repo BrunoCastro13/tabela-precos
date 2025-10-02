@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Preços</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .precos {
+            padding: 40px 30px;
+        }
+        
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 15px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .item-info h3 {
+            color: #333;
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+        
+        .item-info p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .preco {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            border-top: 1px solid #eee;
+        }
+        
+        .contato {
+            margin-top: 15px;
+            color: #666;
+        }
+        
+        .contato a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Meu Negócio</h1>
+            <p>Confira nossos preços e serviços</p>
+        </header>
+        
+        <div class="precos">
+            <div class="item">
+                <div class="item-info">
+                    <h3>Serviço Básico</h3>
+                    <p>Descrição do serviço básico oferecido</p>
+                </div>
+                <div class="preco">€25</div>
+            </div>
+            
+            <div class="item">
+                <div class="item-info">
+                    <h3>Serviço Standard</h3>
+                    <p>Inclui benefícios adicionais</p>
+                </div>
+                <div class="preco">€45</div>
+            </div>
+            
+            <div class="item">
+                <div class="item-info">
+                    <h3>Serviço Premium</h3>
+                    <p>Pacote completo com todos os extras</p>
+                </div>
+                <div class="preco">€75</div>
+            </div>
+            
+            <div class="item">
+                <div class="item-info">
+                    <h3>Consulta</h3>
+                    <p>Atendimento personalizado individual</p>
+                </div>
+                <div class="preco">€30</div>
+            </div>
+        </div>
+        
+        <footer>
+            <h3>📞 Entre em Contato</h3>
+            <div class="contato">
+                <p>WhatsApp: <a href="https://wa.me/351999999999">+351 999 999 999</a></p>
+                <p>Email: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
